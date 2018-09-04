@@ -1,0 +1,30 @@
+header{
+    background:grey;
+    width: 90%;
+    height: 100px;
+    border-radius: 3%;
+}
+nav{
+    background:rebeccapurple;
+    width: 90%;
+    height: 100px;
+    position: relative;
+}
+article{
+    background:gray;
+    width: 70%;
+    height:500px;
+    float: left;
+}
+aside{
+    background:grey;
+    width: 20%;
+    height: 500px;
+    float: left;
+}
+
+footer{
+    background-color: gray;
+    width: 90%;
+    height: 200px;
+}
