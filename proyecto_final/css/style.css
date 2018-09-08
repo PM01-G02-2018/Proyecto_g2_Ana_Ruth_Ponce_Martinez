@@ -2,18 +2,17 @@ body{
     background-color: rgba(54, 11, 54, 0.301);
 }
 header{
-    background-color:rgb(36, 33, 33);
     width: 100%;
-    height: 100px;
 }
 nav{
+    position: relative;
     background-color:rgb(23, 7, 39);
     width: 100%;
-    height: 100px;
+    height: 150px;
 }
 
 section{
-    background-color:rgb(68, 21, 21);
+    background-color:rgb(54, 8, 48);
     width: 70%;
     height:500px;
     float: left;
@@ -29,15 +28,16 @@ aside{
     float: left;
 }
 footer{
-    background: black;
+    background: gray;
     width: 100%;
-    height: 200px;
     margin-top: 45%;
 }
 #cuerpo{
+    position: relative;
+    background-color: #1d041d;
     margin: 0 auto;
-    background-color: peru;
     height: 100%;
+    width: 82%;
     margin-left: 10%;
 }
 
@@ -51,8 +51,8 @@ footer{
   
  }
  .active{
-    border-radius: 3px;
-    height: 30px;
+    border-radius: 20px;
+    height: 37px;
     width: 40%;
     background-color: rgb(2, 2, 24);
     margin: 0 auto;
@@ -61,3 +61,21 @@ footer{
     color: aliceblue;
     text-decoration: none;
   } 
+#img_ingenieria{
+    position: relative;
+    margin: 0 auto;
+}
+#fondo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    max-width: 1024px;
+    min-width: 100%;
+    min-height: 100%
+}
+.enlases{
+    color: blue;
+}
+.listas{
+    text-align: center;
+}
