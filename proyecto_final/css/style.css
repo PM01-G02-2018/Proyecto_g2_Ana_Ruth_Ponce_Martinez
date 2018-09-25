@@ -1,81 +1,209 @@
 body{
-    background-color: rgba(54, 11, 54, 0.301);
+    background-image: url(../img/infor.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
+.mySlides {display:none;}
+
+
 header{
     width: 100%;
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.897);
 }
 nav{
-    position: relative;
-    background-color:rgb(23, 7, 39);
+    position: fixed;
+    top:0; left:0; 
+    background-color:rgb(7, 5, 29);
     width: 100%;
-    height: 150px;
-}
-
-section{
-    background-color:rgb(54, 8, 48);
-    width: 70%;
-    height:500px;
-    float: left;
-}
-h1{
-    font-size:20px; 
-    text-align: center;
-}
-aside{
-    background:rgb(90, 87, 87);
-    width: 30%;
-    height: 500px;
-    float: left;
-}
-footer{
-    background: gray;
-    width: 100%;
-    margin-top: 45%;
+    height: 15%;
 }
 #cuerpo{
     position: relative;
-    background-color: #1d041d;
     margin: 0 auto;
     height: 100%;
     width: 82%;
-    margin-left: 10%;
+    margin-left: 8%;
+}
+#seccion1{
+    background-color:rgba(0, 0, 0, 0.904);
+    width: 70%;
+    height:600px;  
+}
+#seccion2{
+  background-color:rgba(0, 0, 0, 0.904);  
+    width: 70%;
+    height:600;
+    float: left;
+}
+#seccion3{
+    background-color: rgba(0, 0, 0, 0.904);
+    width: 70%;
+    height:800;
+    float: left;
+}
+h2{
+    color: white
 }
 
-#contenedor-menu{
-    line-height: 30px;
+h1{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:37px; 
     text-align: center;
+    color:white;
+}
+aside{
+    background-color:rgba(0, 0, 0, 0.705);
+    width: 30%;
+    height: 3480px;
+    float: right;
+    margin-top: 2.7%;
+}
+#parrafoGalery{
+    color: white;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 57%;
+    margin-left: 20%;
+    margin-top: 20%;
+}
+
+div.gallery:hover {
+    border: 5px solid #777;
+}
+div.gallery img {
+    width: 100%;
+    height: auto; 
+}
+footer{    
+   background-color: rgb(0, 0, 0);
+    height:280px;
+    width: 100%;
+    margin-top: 225%;
+}
+.formulario{
+    text-align: center;
+}
+#redes-sociales{
+    height: 65px;
+    width: 98%;    
+    background-color: black;
+    padding: 1%;
+}
+#instagram{
+    width: 35px;
+    height: 35px;
+    padding: 9px;
+}
+#Facebook{
+    width: 35px;
+    height: 35px;
+    padding: 9px;
+}
+#Snapchat{
+    width: 35px;
+    height: 35px;
+    padding: 9px;
+}
+#Twitter{
+    width: 35px;
+    height: 35px;
+    padding: 9px;
+}
+#contenedor-menu{
+    line-height: 1%;
+    text-align: center;
+    font-size: 25px;
 }
 #menu{
     width: 100%;
     height: 30px;
-  
  }
- .active{
-    border-radius: 20px;
-    height: 37px;
-    width: 40%;
-    background-color: rgb(2, 2, 24);
+ #menu ul li{
+     display: inline-block;
+     margin-left: 30px;
+     padding: 20px 30px 20px 20px;
+     margin-top: 3%;
+ }   
+ .enlase{
+     text-decoration: none;
+ }
+ .active:hover{
+    border-radius: 5px;
+    height: 8px;
+    width: 8%;
     margin: 0 auto;
+    background:blue;
+    color:white;
+    margin-top: 3%;
+    text-decoration: none;
+    
  }
  a{
     color: aliceblue;
-    text-decoration: none;
-  } 
-#img_ingenieria{
+ } 
+#img_robot{
     position: relative;
     margin: 0 auto;
+    left: 25px;
+    top: 10px;
+    height: 90%;
+    width: 95%;
 }
-#fondo{
-    position: fixed;
-    top: 0;
-    left: 0;
-    max-width: 1024px;
-    min-width: 100%;
-    min-height: 100%
+
+.parrafos{
+    text-align: justify;
+    color: white;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: none;
 }
-.enlases{
-    color: blue;
+#boton{
+    background: blue;
 }
-.listas{
+.list{
     text-align: center;
+    border-radius: 20px;
+    height: 40px;
+    width: 90%;
+    margin: 0 auto;
+    background:blue;
+    margin-top: 3%;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 140%;
+}
+#domestico{
+        width: 330px;
+        height: 35px;
+        padding:9px;
+}
+#artificial{
+    width: 330px;
+    height: 35px;
+    padding:9px;
+}
+#movil{
+    width: 330px;
+    height: 35px;
+    padding:9px;
+}
+#autonoma{
+    width: 330px;
+    height: 35px;
+    padding:9px;
+}
+#educativa{
+    width: 330px;
+    height: 35px;
+    padding:9px;
+}
+#evolutiva{
+    width: 330px;
+    height: 35px;
+    padding:9px;
 }
