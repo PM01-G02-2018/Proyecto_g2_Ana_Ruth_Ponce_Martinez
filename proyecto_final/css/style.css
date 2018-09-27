@@ -5,9 +5,12 @@ body{
     background-position: center center;
     background-size: cover;
 }
-.mySlides {display:none;}
+.mySlides {
+    display:none;
+    width: 1280px;
+    height: 650px;
 
-
+}
 header{
     width: 100%;
     height: 650px;
@@ -47,7 +50,6 @@ nav{
 h2{
     color: white
 }
-
 h1{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size:37px; 
     text-align: center;
@@ -140,8 +142,7 @@ footer{
     background:blue;
     color:white;
     margin-top: 3%;
-    text-decoration: none;
-    
+    text-decoration: none;  
  }
  a{
     color: aliceblue;
